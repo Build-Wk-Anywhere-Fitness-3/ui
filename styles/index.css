@@ -102,9 +102,12 @@ nav a {
 button {
 	border-radius: 12px;
 	background-color: #343434;
-	color: #fcfaf1;
 	border: 2px solid #cacaca;
 	font-size: 28px;
+}
+
+button a {
+	color: #fcfaf1;
 }
 	  
 button:hover {
