@@ -135,6 +135,7 @@ button:hover {
 .benefits-section {
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 	width: 85%;
 	margin: 0 auto 4%;
 }
@@ -144,6 +145,7 @@ button:hover {
 	margin-right: 2%;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	width: 30%;
 }
 
 .fas {
@@ -247,6 +249,14 @@ footer p {
 @media (max-width: 800px){
 	.benefits-section {
 		flex-direction: column;
+		
+	}
+	.benefits-section div {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.benefits-section p {
+		margin-bottom: 3%;
 	}
 }
 
