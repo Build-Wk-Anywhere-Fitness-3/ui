@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid purple;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -263,11 +263,15 @@ footer p {
 /* 500PX */
 
 @media (max-width: 500px){
+	nav a {
+		margin: 0 auto;
+	}
 	.nav-div {
 		flex-direction: column;
 	}
 	.nav-links {
 		margin-bottom: 3%;
+		width: 60%;
 	}
 	.team-section h1 {
 		margin: 4% 0 7%;
