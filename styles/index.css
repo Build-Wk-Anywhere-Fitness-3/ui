@@ -249,7 +249,6 @@ footer p {
 @media (max-width: 800px){
 	.benefits-section {
 		flex-direction: column;
-		
 	}
 	.benefits-section div {
 		width: 95%;
@@ -272,6 +271,10 @@ footer p {
 	.nav-links {
 		margin-bottom: 3%;
 		width: 60%;
+	}
+	header h2 {
+		width: 82%;
+		margin: 0 auto;
 	}
 	.team-section h1 {
 		margin: 4% 0 7%;
@@ -302,8 +305,16 @@ footer p {
 		flex-direction: column;
 		width: 50%;
 	}
+	header h1 {
+		width: 79%;
+		margin: 0 auto;
+	}
 	footer {
 		display: flex;
 		flex-direction: column;
+	}
+	footer p {
+		width: 82%;
+		margin: 0 auto;
 	}
 }
